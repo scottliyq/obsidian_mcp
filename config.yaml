@@ -1,0 +1,23 @@
+server:
+  name: "obsidian-mcp"
+  log_level: "INFO"
+embedding:
+  ollama_base_url: "http://localhost:11434"
+  timeout_s: 30
+  default_model: "nomic-embed-text"
+vector_store:
+  persist_dir: ".vector_store"
+indexing:
+  default_chunk_size_chars: 600
+  default_chunk_overlap_chars: 80
+  ignore_dirs:
+    - ".obsidian"
+vaults:
+  - name: "default"
+    path: "/Volumes/waijie/ob_vault/ai"
+    language: "zh"
+    chunking:
+      strategy: "chinese_recursive"
+      chunk_size_chars: 600
+      chunk_overlap_chars: 80
+    embedding_model: "qllama/bge-small-zh-v1.5"

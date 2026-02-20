@@ -1,0 +1,8 @@
+fastmcp
+chromadb
+httpx[socks]
+watchfiles
+pyyaml
+structlog
+pytest
+pytest-asyncio
