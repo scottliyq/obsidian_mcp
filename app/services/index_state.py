@@ -17,7 +17,13 @@ class IndexState:
     def load(cls, path: Path) -> "IndexState":
         if not path.exists():
             return cls(entries={})
-        data = json.loads(path.read_text(encoding="utf-8"))
+        raw_text = path.read_text(encoding="utf-8").strip()
+        if not raw_text:
+            return cls(entries={})
+        try:
+            data = json.loads(raw_text)
+        except json.JSONDecodeError:
+            return cls(entries={})
         raw = data.get("entries", {}) if isinstance(data, dict) else {}
         entries: dict[str, IndexRecord] = {}
         for key, value in raw.items():

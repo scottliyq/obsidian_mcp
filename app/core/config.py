@@ -9,6 +9,11 @@ import yaml
 class ServerConfig:
     name: str = "obsidian-mcp"
     log_level: str = "INFO"
+    transport: str = "stdio"
+    host: str = "127.0.0.1"
+    port: int = 8000
+    path: str = "/mcp"
+    stateless_http: bool = False
 
 
 @dataclass(frozen=True)

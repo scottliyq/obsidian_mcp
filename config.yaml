@@ -1,6 +1,11 @@
 server:
   name: "obsidian-mcp"
   log_level: "INFO"
+  transport: "stdio"
+  host: "127.0.0.1"
+  port: 8000
+  path: "/mcp"
+  stateless_http: false
 embedding:
   ollama_base_url: "http://localhost:11434"
   timeout_s: 30

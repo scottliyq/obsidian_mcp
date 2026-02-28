@@ -1,0 +1,467 @@
+
+
+      ╭──────────────────────────────────────────────────────────────────────────────╮      
+      │                                                                              │      
+      │                                                                              │      
+      │                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │      
+      │                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │      
+      │                                                                              │      
+      │                                                                              │      
+      │                                FastMCP 3.0.0                                 │      
+      │                            https://gofastmcp.com                             │      
+      │                                                                              │      
+      │                    🖥  Server:      obsidian-mcp, 3.0.0                       │      
+      │                    🚀 Deploy free: https://fastmcp.cloud                     │      
+      │                                                                              │      
+      ╰──────────────────────────────────────────────────────────────────────────────╯      
+      ╭──────────────────────────────────────────────────────────────────────────────╮      
+      │                          🎉 Update available: 3.0.2                          │      
+      │                      Run: pip install --upgrade fastmcp                      │      
+      ╰──────────────────────────────────────────────────────────────────────────────╯      
+
+
+Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+{"vault": "default", "files": 31, "force": false, "event": "vault_index_start", "timestamp": "2026-02-27T13:42:35.180777Z", "level": "info"}
+{"vault": "default", "files": 31, "event": "vault_index_done", "timestamp": "2026-02-27T13:42:35.181207Z", "level": "info"}
+{"vaults": 1, "event": "mcp_started", "timestamp": "2026-02-27T13:42:35.181994Z", "level": "info"}
+[02/27/26 21:42:35] INFO     Starting MCP server 'obsidian-mcp' with        transport.py:273
+                             transport 'streamable-http' on                                 
+                             http://127.0.0.1:8580/mcp                                      
+INFO:     Started server process [76592]
+INFO:     Waiting for application startup.
+StreamableHTTP session manager started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8580 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55365 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55370 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55412 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55416 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55489 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55489 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55489 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: c96e6ee0b9494f9d95809431839dd86f
+INFO:     127.0.0.1:55501 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55504 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55507 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55508 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:55510 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+INFO:     127.0.0.1:55512 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:55513 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55515 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55515 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Terminating session: c96e6ee0b9494f9d95809431839dd86f
+INFO:     127.0.0.1:55526 - "DELETE /mcp HTTP/1.1" 200 OK
+Created new transport with session ID: ea5eeb68de0b47c3be96ab18549ce41b
+INFO:     127.0.0.1:55547 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55553 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:55560 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55567 - "GET /mcp HTTP/1.1" 404 Not Found
+Terminating session: ea5eeb68de0b47c3be96ab18549ce41b
+INFO:     127.0.0.1:55599 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55604 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55604 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55604 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: d172e5f2a80f463ab9f791768c768d4c
+INFO:     127.0.0.1:55624 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55627 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55630 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55631 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:55647 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:55652 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: d172e5f2a80f463ab9f791768c768d4c
+INFO:     127.0.0.1:55660 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55861 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56323 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56330 - "GET /mcp HTTP/1.1" 404 Not Found
+2 changes detected
+2 changes detected
+1 change detected
+3 changes detected
+2 changes detected
+3 changes detected
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/agent/\u4f60\u7684OpenClaw\u662f\u4e0d\u662f\u6709\u70b9\u5446\uff0c \u51e0\u6b65\u8c03\u6559\u8ba9\u4f60\u7684 AI \u52a9\u624b\u8131\u80ce\u6362\u9aa8.md", "chunks": 8, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-27T13:47:56.390219Z", "level": "info"}
+4 changes detected
+1 change detected
+1 change detected
+INFO:     127.0.0.1:57171 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57193 - "GET /mcp HTTP/1.1" 404 Not Found
+4 changes detected
+1 change detected
+2 changes detected
+3 changes detected
+1 change detected
+3 changes detected
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/Clippings/OpenClaw \u4ece\u4e2d\u7ea7\u5230\u9ad8\u7ea7\u5b8c\u6574\u6559\u7a0b.md", "chunks": 49, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-27T13:53:29.413517Z", "level": "info"}
+6 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+3 changes detected
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/Clippings/OpenClaw \u4ece\u4e2d\u7ea7\u5230\u9ad8\u7ea7\u5b8c\u6574\u6559\u7a0b.md", "event": "file_deleted", "timestamp": "2026-02-27T13:53:46.296191Z", "level": "info"}
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/agent/OpenClaw \u4ece\u4e2d\u7ea7\u5230\u9ad8\u7ea7\u5b8c\u6574\u6559\u7a0b.md", "chunks": 49, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-27T13:53:46.989271Z", "level": "info"}
+1 change detected
+2 changes detected
+INFO:     127.0.0.1:59222 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59229 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63260 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63279 - "GET /mcp HTTP/1.1" 404 Not Found
+2 changes detected
+2 changes detected
+1 change detected
+3 changes detected
+2 changes detected
+1 change detected
+2 changes detected
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 400 Bad Request"
+{"status_code": 400, "body": "{\"error\":\"the input length exceeds the context length\"}", "event": "ollama_embed_failed", "timestamp": "2026-02-27T14:41:43.924027Z", "level": "error"}
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/Clippings/\u4f60\u597d\uff0c\u6211\u7684\u8d3e\u7ef4\u65af--\u6b22\u8fce\u6765\u5230\u4e16\u754c.md", "chunks": 97, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-27T14:41:44.713903Z", "level": "info"}
+5 changes detected
+INFO:     127.0.0.1:53995 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53999 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54888 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54888 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54888 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: eada12627e42468685518e850a2777fb
+INFO:     127.0.0.1:54918 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54921 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54925 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54923 - "GET /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:54930 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:54932 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: eada12627e42468685518e850a2777fb
+INFO:     127.0.0.1:54941 - "DELETE /mcp HTTP/1.1" 200 OK
+4 changes detected
+1 change detected
+3 changes detected
+2 changes detected
+2 changes detected
+1 change detected
+1 change detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+2 changes detected
+2 changes detected
+2 changes detected
+2 changes detected
+1 change detected
+3 changes detected
+3 changes detected
+2 changes detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+2 changes detected
+2 changes detected
+1 change detected
+4 changes detected
+3 changes detected
+2 changes detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+2 changes detected
+2 changes detected
+1 change detected
+2 changes detected
+1 change detected
+2 changes detected
+2 changes detected
+1 change detected
+1 change detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+2 changes detected
+1 change detected
+4 changes detected
+1 change detected
+1 change detected
+1 change detected
+3 changes detected
+1 change detected
+4 changes detected
+1 change detected
+3 changes detected
+1 change detected
+2 changes detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+5 changes detected
+1 change detected
+1 change detected
+2 changes detected
+1 change detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+INFO:     127.0.0.1:55547 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55547 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55547 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: 46c5e6c714be4f218bffc834344c6caf
+INFO:     127.0.0.1:55557 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55560 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55563 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55564 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:55580 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:55582 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: 46c5e6c714be4f218bffc834344c6caf
+INFO:     127.0.0.1:55592 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55841 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55841 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55841 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55854 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55854 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55854 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: d3d989ad578f4310826f6881ece4b80b
+INFO:     127.0.0.1:55869 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55871 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55874 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55875 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+Created new transport with session ID: 550fa1aaa7d14993a0db569ba975c62c
+INFO:     127.0.0.1:55878 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55881 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55884 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55885 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:55887 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:55889 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: 550fa1aaa7d14993a0db569ba975c62c
+INFO:     127.0.0.1:55901 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55945 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55945 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55946 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: ee3b876959dd472cbd32f88bc82d3f16
+INFO:     127.0.0.1:55965 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55968 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55971 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55972 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:55977 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55977 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55977 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: 32bc7345aae64972a28bcb817a78a662
+INFO:     127.0.0.1:55994 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55998 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56002 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56001 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:56045 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:56047 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: 32bc7345aae64972a28bcb817a78a662
+INFO:     127.0.0.1:56049 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56230 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:56562 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56564 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56565 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: 39240125a75d4eb7b032f614b89ea995
+INFO:     127.0.0.1:56589 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56592 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56596 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56595 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:56610 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:56612 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: 39240125a75d4eb7b032f614b89ea995
+INFO:     127.0.0.1:56619 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57018 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57018 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57018 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: 87269a4b7b5a47bc9cf6010be36ef430
+INFO:     127.0.0.1:57031 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57034 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57037 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57038 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:57040 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:57042 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: 87269a4b7b5a47bc9cf6010be36ef430
+INFO:     127.0.0.1:57058 - "DELETE /mcp HTTP/1.1" 200 OK
+2 changes detected
+3 changes detected
+1 change detected
+4 changes detected
+2 changes detected
+2 changes detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+2 changes detected
+2 changes detected
+1 change detected
+1 change detected
+2 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+6 changes detected
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/Untitled.md", "event": "file_deleted", "timestamp": "2026-02-28T06:07:39.488369Z", "level": "info"}
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+4 changes detected
+1 change detected
+2 changes detected
+1 change detected
+1 change detected
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 400 Bad Request"
+{"status_code": 400, "body": "{\"error\":\"the input length exceeds the context length\"}", "event": "ollama_embed_failed", "timestamp": "2026-02-28T06:08:01.850760Z", "level": "error"}
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/\u53c2\u8003\u6587\u7ae0/Untitled.md", "chunks": 13, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-28T06:08:02.091130Z", "level": "info"}
+2 changes detected
+4 changes detected
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 400 Bad Request"
+{"status_code": 400, "body": "{\"error\":\"the input length exceeds the context length\"}", "event": "ollama_embed_failed", "timestamp": "2026-02-28T06:08:07.482462Z", "level": "error"}
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/\u53c2\u8003\u6587\u7ae0/\u7279\u6717\u666e\u5c01\u6740 Anthropic\uff1a\u7f8e\u56fd AI \u4ea7\u4e1a\u7684\u63a7\u5236\u6743\u535a\u5f08\u4e0e\u683c\u5c40\u91cd\u6784.md", "chunks": 13, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-28T06:08:07.683686Z", "level": "info"}
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/\u53c2\u8003\u6587\u7ae0/Untitled.md", "event": "file_deleted", "timestamp": "2026-02-28T06:08:07.751748Z", "level": "info"}
+1 change detected
+1 change detected
+INFO:     127.0.0.1:58260 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58260 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58260 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: dfd88d66d53a4b5bbeee6c47d46c9179
+INFO:     127.0.0.1:58285 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58288 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:58291 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58292 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:58300 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:58302 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: dfd88d66d53a4b5bbeee6c47d46c9179
+INFO:     127.0.0.1:58312 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+1 change detected
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 400 Bad Request"
+{"status_code": 400, "body": "{\"error\":\"the input length exceeds the context length\"}", "event": "ollama_embed_failed", "timestamp": "2026-02-28T06:13:04.107113Z", "level": "error"}
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/Clippings/(99+ \u5c01\u79c1\u4fe1  2 \u6761\u6d88\u606f) \u95fb\u53f7\u8bf4\u7ecf\u6d4e - \u77e5\u4e4e.md", "chunks": 15, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-28T06:13:04.351525Z", "level": "info"}
+1 change detected
+2 changes detected
+3 changes detected
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/Clippings/(99+ \u5c01\u79c1\u4fe1  2 \u6761\u6d88\u606f) \u95fb\u53f7\u8bf4\u7ecf\u6d4e - \u77e5\u4e4e.md", "event": "file_deleted", "timestamp": "2026-02-28T06:13:42.429058Z", "level": "info"}
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 400 Bad Request"
+{"status_code": 400, "body": "{\"error\":\"the input length exceeds the context length\"}", "event": "ollama_embed_failed", "timestamp": "2026-02-28T06:13:42.520591Z", "level": "error"}
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+{"vault": "default", "path": "/Volumes/waijie/ob_vault/ai/ai/Clippings/\u7279\u6717\u666e\u5c01\u6740 Anthropic\u4e8b\u4ef6\u5206\u6790.md", "chunks": 15, "model": "qllama/bge-small-zh-v1.5", "event": "file_indexed", "timestamp": "2026-02-28T06:13:42.742142Z", "level": "info"}
+1 change detected
+2 changes detected
+INFO:     127.0.0.1:59335 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59335 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59336 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: ce75f53e3c4241eaa900dc0fb5258c75
+INFO:     127.0.0.1:59364 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:59369 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59370 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:59374 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+INFO:     127.0.0.1:59376 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+Terminating session: ce75f53e3c4241eaa900dc0fb5258c75
+INFO:     127.0.0.1:59380 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59394 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type CallToolRequest
+HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:59940 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59940 - "GET /mcp/.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59940 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+Created new transport with session ID: 5c7f1494eacf4203912302e8844598b1
+INFO:     127.0.0.1:59959 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59962 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:59965 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59966 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListToolsRequest
+INFO:     127.0.0.1:59968 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourcesRequest
+INFO:     127.0.0.1:59970 - "POST /mcp HTTP/1.1" 200 OK
+Processing request of type ListResourceTemplatesRequest
+Terminating session: 5c7f1494eacf4203912302e8844598b1
+INFO:     127.0.0.1:59978 - "DELETE /mcp HTTP/1.1" 200 OK

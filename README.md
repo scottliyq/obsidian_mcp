@@ -29,6 +29,14 @@
 python -m app.main
 ```
 
+3) 启动 MCP 服务（streamable-http）：
+
+```bash
+python -m app.main --transport streamable-http --host 127.0.0.1 --port 8580 --path /mcp
+```
+
+也可以在 `config.yaml` 的 `server` 中设置默认启动参数（`transport/host/port/path/stateless_http`），启动时不传这些参数将自动使用配置值。
+
 3) 强制索引：
 
 ```bash
@@ -61,8 +69,19 @@ pytest -q
 {
   "servers": {
     "obsidian-mcp": {
-      "command": "python",
-      "args": ["-m", "app.main"],
+      "command": "/Users/scottliyq/opt/miniconda3/envs/py312obsync/bin/python",
+      "args": [
+        "-m",
+        "app.main",
+        "--transport",
+        "streamable-http",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000",
+        "--path",
+        "/mcp"
+      ],
       "cwd": "/Users/scottliyq/go/ai/obsidian_mcp"
     }
   }
@@ -89,3 +108,7 @@ pytest -q
 - 2026-02-21：下调 `config.yaml` 分块参数（`default_chunk_size_chars/chunk_size_chars: 800 -> 600`，`default_chunk_overlap_chars/chunk_overlap_chars: 120 -> 80`），降低 Ollama `context length` 超限概率。
 - 2026-02-21：将 `.vscode/mcp.json` 的 `obsidian-mcp.command` 改为 `py312obsync` 环境 Python 绝对路径，确保 MCP 始终在指定 conda 环境下启动。
 - 2026-02-21：为 MCP `search` 工具补充描述文档（docstring），修复客户端告警 `Tool search does not have a description`。
+- 2026-02-27：修复索引状态文件为空或损坏时启动崩溃（`JSONDecodeError`）问题：`IndexState.load` 增加空内容与非法 JSON 容错回退，保证服务可正常启动并在后续写回状态。
+- 2026-02-27：`app.main` 新增启动参数，支持 `--transport streamable-http`（含 `host/port/path/stateless-http`），用于通过 HTTP 模式对外提供 MCP 服务，同时保持 `stdio` 默认行为不变。
+- 2026-02-27：支持从 `config.yaml.server` 配置 MCP 启动默认模式与 HTTP 参数（`transport/host/port/path/stateless_http`），并保持命令行参数优先级高于配置项。
+- 2026-02-27：更新 `.vscode/mcp.json` 与 README 示例，将 `obsidian-mcp` 启动参数切换为 `streamable-http`（`127.0.0.1:8000/mcp`），用于编辑器内按 HTTP 模式接入 MCP 服务。
